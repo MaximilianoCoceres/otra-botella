@@ -438,14 +438,18 @@ background: linear-gradient(45deg, rgba(3,13,33,1) 0%, rgba(1,5,23,1) 50%, rgba(
 
 /**Card-modal**/
 
+.modal .card-modal{
+     width: 100%;
+}
+
 .modal-content{
 background: rgb(3,13,33);
 background: linear-gradient(45deg, rgba(3,13,33,1) 0%, rgba(1,5,23,1) 50%, rgba(0,0,0,1) 100%);
 }
 
 .modal-content .card-modal{
-     background: rgb(3,13,33);
-background: linear-gradient(45deg, rgba(3,13,33,1) 0%, rgba(1,5,23,1) 50%, rgba(0,0,0,1) 100%);
+     background: rgb(35,59,108);
+background: linear-gradient(45deg, rgba(35,59,108,1) 0%, rgba(1,5,23,1) 50%, rgba(0,0,0,1) 100%);
 }
 
 .modal-content .card-modal p{
@@ -460,6 +464,21 @@ font-weight: lighter;
 .modal-content .card-modal h5{
      font-size: 20px;
      text-align: center;
+}
+.modal .card .img-fluid{
+     object-fit: cover;
+     max-width: 100%;
+     height: 25em;
+}
+
+.store_box .btn{
+     background-color: #c4c4c4;
+}
+
+.store_box .btn:hover{
+     background-color: #301e45;
+     color: #fff;
+     transition: 0.8s;
 }
 
 /** about section **/
