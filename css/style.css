@@ -353,10 +353,11 @@ background: linear-gradient(45deg, rgba(3,13,33,1) 0%, rgba(1,5,23,1) 50%, rgba(
      color: #000;
      padding: 13px 0px;
      width: 100%;
-     max-width: 190px;
+     max-width: 130px;
      text-align: center;
      display: inline-block;
      transition: ease-in all 0.5s;
+     border-radius: 10px;
 }
 
 .text-bg a:hover {
@@ -415,6 +416,8 @@ background: linear-gradient(45deg, rgba(3,13,33,1) 0%, rgba(1,5,23,1) 50%, rgba(
 
 .store .store_box figure img {
      width: 100%;
+     object-fit: cover;
+    height: 18em;
 }
 
 .store .store_box p {
