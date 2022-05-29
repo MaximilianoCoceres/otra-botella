@@ -80,10 +80,13 @@ h1 {
 h2 {
      font-size: 22px;
      font-family: 'Poppins',sans-serif;
+     font-weight: bold;
 }
 
 h3 {
      font-size: 18px;
+     font-family: 'Poppins',sans-serif;
+     font-weight: bold;
 
 }
 
@@ -184,6 +187,11 @@ a,
      border: none !important;
 }
 
+.logo-navbar{
+     width: 8em;
+     height: 3em;
+     filter: invert(1);
+}
 .badge {
      font-weight: 500;
 }
@@ -200,10 +208,10 @@ button {
      cursor: pointer;
 }
 
-.full {
-     float: left;
+/* .full {
+
      width: 100%;
-}
+} */
 
 .layout_padding {
      padding-top: 90px;
@@ -227,12 +235,12 @@ button {
      margin-top: 30px !important;
 }
 
-.full {
+/* .full {
      width: 100%;
      float: left;
      margin: 0;
      padding: 0;
-}
+} */
 
 
 /**-- heading section --**/
@@ -278,8 +286,7 @@ button {
 /*-- navigation--*/
 
 .navigation.navbar {
-     padding-top: 12px;
-     float: right;
+     position: static;
 }
 
 .navigation.navbar-dark .navbar-nav .nav-link {
@@ -501,15 +508,12 @@ font-weight: lighter;
 
 }
 
-.about .about_box {
-     text-align: center;
-}
 
 .about .about_box p {
      color: #fff;
      font-size: 17px;
      line-height: 30px;
-     padding: 0px 0px 40px 0px;
+     padding: 10px 30px 0px 30px;
 }
 
 
@@ -546,7 +550,7 @@ font-weight: lighter;
 
 .Testimonial_box p {
      color: #fff;
-     font-size: 17px;
+     font-size: 25px;
      line-height: 28px;
      padding: 25px 0;
      font-family: 'Dancing Script', cursive
@@ -598,10 +602,8 @@ line-height: 50px;
      color: #fff;
      padding: 27px 0px 50px 0px;
 }
-.talk {
-     padding: 90px 0;
-     border-top: #fff solid 1px;
-     margin-top: 90px;
+.talk{
+     padding-top: 4em;
 }
 
 .redes .row{
@@ -725,11 +727,14 @@ line-height: 50px;
 
 
 /** footer **/
-
+.wines h2{
+     font-size: 40px;
+     margin-bottom: 0.5em;
+     text-align: center;
+}
 .footer {
      padding: 30px 0px;
      background: transparent;
-     border-top: #f5f5f5 solid 1px;
 }
 
 .footer p {
@@ -739,11 +744,29 @@ line-height: 50px;
      text-align: center;
 }
 
-.footer img{
+.footer .logo-footer{
      width: 10em;
      filter: invert(0.5);
 
 }
+
+.logo-ob{
+     display: flex;
+     align-items: center;
+     justify-content: center;
+}
+
+.footer .qr{
+     width: 8em;
+
+}
+
+
+.logo-pagos{
+     width: 30px;
+     margin-right: 10px;
+}
+
 
 
 /** end footer **/
